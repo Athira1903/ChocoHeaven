@@ -46,31 +46,46 @@ OOP Principles - Encapsulation, Inheritance, Polymorphism, Abstraction
 
 RESTful APIs - Payment processing endpoints
 
-📁 Project Structure
-text
 chocoheaven/
 ├── 📁 config/
-│   └── database.php                 # Database & Razorpay configuration
+│   └── 📄 database.php                 # Database & Razorpay configuration
+│
 ├── 📁 core/
-│   └── Session.php                  # Session management class
-├── 📁 models/                       # Data models (OOP Classes)
-│   ├── Model.php                    # Abstract base model
-│   ├── Product.php                  # Product CRUD operations
-│   ├── User.php                     # User authentication
-│   ├── Order.php                    # Order management
-│   └── OrderItem.php                # Order items handling
-├── 📁 includes/                     # Reusable components
-│   ├── header.php                   # Navigation header
-│   └── footer.php                   # Site footer
+│   └── 📄 Session.php                  # Session management class
+│
+├── 📁 models/                          # Data models (OOP Classes)
+│   ├── 📄 Model.php                    # Abstract base model
+│   ├── 📄 Product.php                  # Product CRUD operations
+│   ├── 📄 User.php                     # User authentication
+│   ├── 📄 Order.php                    # Order management
+│   └── 📄 OrderItem.php                # Order items handling
+│
+├── 📁 includes/                        # Reusable components
+│   ├── 📄 header.php                   # Navigation header
+│   └── 📄 footer.php                   # Site footer
+│
 ├── 📁 css/
-│   └── style.css                    # Custom brown theme
+│   └── 📄 style.css                    # Custom brown theme
+│
 ├── 📁 js/
-│   └── script.js                    # Cart & interactions
-├── 📄 index.php                     # Homepage
-├── 📄 products.php                  # Product catalog
-├── 📄 cart.php                      # Shopping cart
-├── 📄 checkout.php                  # Checkout process
-└── ... (other PHP files)
+│   └── 📄 script.js                    # Cart & interactions
+│
+├── 📄 index.php                        # Homepage
+├── 📄 products.php                     # Product catalog
+├── 📄 cart.php                         # Shopping cart
+├── 📄 checkout.php                     # Checkout process
+├── 📄 payment-success.php              # Payment success page
+├── 📄 payment-failed.php               # Payment failure page
+├── 📄 login.php                        # User login
+├── 📄 register.php                     # User registration
+├── 📄 logout.php                       # Logout functionality
+├── 📄 profile.php                      # User profile
+├── 📄 orders.php                       # Order history
+├── 📄 about.php                        # About us page
+├── 📄 contact.php                      # Contact us page
+├── 📄 create_razorpay_order.php        # Razorpay API
+├── 📄 process_payment.php              # Payment processing
+└── 📄 README.md                        # Project documentation
 🚀 Installation & Setup
 Prerequisites
 XAMPP/WAMP/MAMP stack
