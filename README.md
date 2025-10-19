@@ -1,4 +1,5 @@
 🍫 ChocoHeaven - Premium Chocolate E-Commerce Platform
+
 A full-stack M-Commerce web application built with PHP OOP, MySQL, and modern web technologies. This project demonstrates advanced web programming concepts with a complete online chocolate store.
 
 📋 Project Overview
@@ -6,10 +7,15 @@ ChocoHeaven is a sophisticated e-commerce platform specializing in premium choco
 
 🎯 Key Features
 User Authentication - Registration, login, and session management 
+
 Product Catalog - Advanced filtering and search functionality
+
 Shopping Cart - Persistent cart with local storage
+
 Secure Payments - Razorpay integration for payment processing
+
 Order Management - Complete order tracking and history
+
 Responsive Design - Mobile-first approach with Bootstrap
 
 🛠️ Technology Stack
