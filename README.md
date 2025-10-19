@@ -20,20 +20,30 @@ Responsive Design - Mobile-first approach with Bootstrap
 
 🛠️ Technology Stack
 Backend
+
 PHP 7.4+ - Object-Oriented Programming
+
 MySQL - Database management
+
 PDO - Database abstraction layer
+
 Razorpay API - Payment gateway integration
 
 Frontend
 HTML5 - Semantic markup
+
 CSS3 - Custom brown theme with Bootstrap
+
 JavaScript - Dynamic interactions
+
 Bootstrap 5 - Responsive framework
 
 Architecture
+
 MVC Pattern - Model-View-Controller architecture
+
 OOP Principles - Encapsulation, Inheritance, Polymorphism, Abstraction
+
 RESTful APIs - Payment processing endpoints
 
 📁 Project Structure
